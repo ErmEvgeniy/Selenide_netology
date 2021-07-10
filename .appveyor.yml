@@ -1,4 +1,4 @@
-image: macOS
+image: Ubuntu
 
 stack: jdk 11
 
@@ -14,4 +14,4 @@ install:
 
 
 build_script:
-  - ./gradlew test --info "-Dselenide.headless=true"
+  - ./gradlew test -Dselenide.headless=true

@@ -9,7 +9,6 @@ import org.openqa.selenium.WebElement;
 
 import java.time.Duration;
 import java.util.List;
-
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
